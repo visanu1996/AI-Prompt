@@ -1,0 +1,20 @@
+## For execute prompt md
+
+Type / and start typing the filename (e.g., /create-component).
+
+## Example Commands:
+/robot-master
+
+or
+
+/robot-master Generate the init.resource file and include imports for all 4 page resources using ${CURDIR}.
+
+or
+
+/robot-master Create a regression test case in test/E2E/checkout_flow.robot that uses the standard_user from test_data.yml.
+
+
+Pro-Tip for Copilot
+When you are ready for Copilot to help you fill these in, you can simply highlight the code and say:
+
+"I have the locators now. The username input has id='user-name', the password has id='password', and the button is 'login-button'. Update the variables in UPPER_SNAKE_CASE."

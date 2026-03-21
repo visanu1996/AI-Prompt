@@ -1,0 +1,13 @@
+users:
+  standard:
+    username: standard_user
+    password: secret_sauce
+  locked:
+    username: locked_out_user
+    password: secret_sauce
+  problem:
+    username: problem_user
+    password: secret_sauce
+
+messages:
+  login_error: "Epic sadface: Username and password do not match any user in this service"

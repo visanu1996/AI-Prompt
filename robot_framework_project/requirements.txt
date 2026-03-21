@@ -1,0 +1,4 @@
+robotframework>=7.0
+robotframework-browser>=17.0
+robotframework-yamllibrary>=2.0
+pyyaml>=6.0

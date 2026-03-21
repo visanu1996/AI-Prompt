@@ -1,0 +1,10 @@
+browser: chromium
+headless: false
+base_url: https://www.saucedemo.com/
+global_timeout: 30s
+max_retries: 2
+viewport: 
+  width: 1280
+  height: 720
+
+is_record : true
