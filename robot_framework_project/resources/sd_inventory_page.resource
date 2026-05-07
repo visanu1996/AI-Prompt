@@ -74,7 +74,7 @@ Check Cart Badge
     ${badge_text}=    Get Text    ${CART_BADGE}
     Should Be Equal    ${badge_text}    ${expected_count}    msg=Cart badge count mismatch
 
-Badge Should Not Be Invisible
+Badge Should Not Be Visible
     [Documentation]    Verifies the cart badge to not be displays.
     ${is_badge_visible}    Run Keyword And Return Status    Verify Element Visible    ${CART_BADGE}
     IF    ${is_badge_visible}    Fail    msg=Badge should not be visible.
