@@ -193,3 +193,9 @@ robot --variable headless:true -d results/ test/
 - Ensure YAML files are in `config/` directory
 - Check YAML syntax (spaces not tabs)
 - Verify paths use ${CURDIR} correctly
+
+
+### Note
+This project is to learn how to use an AI to create Folder as a strict structure template, and to improve the speed of delivering an automated test script.
+
+Changes still need to made because AI can't do everything for you.
