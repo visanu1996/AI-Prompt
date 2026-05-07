@@ -32,7 +32,7 @@ Remove Product From Cart
     Add Product To Cart    Sauce Labs Backpack
     Check Cart Badge    1
     Remove Product From Cart    Sauce Labs Backpack
-    Badge Should Not Be Invisible
+    Badge Should Not Be Visible
 
 Navigate To Cart From Products
     [Documentation]    Verifies navigation to cart from inventory page.
